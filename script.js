@@ -14,7 +14,8 @@ tl.from('#page1 h1',{
 tl.from("img",{
   x:100,
   rotate:45,
-  opacity:0
+  opacity:0,
+  duration:0.8
 })
 gsap.from('.ri-menu-line',{
   x:50,
